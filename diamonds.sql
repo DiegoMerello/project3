@@ -1,4 +1,4 @@
-SELECT dp.index_id as "Index", dc2.color as "Color", dc3.cut as "Cut", 
+SELECT dc2.color as "Color", dc3.cut as "Cut", 
 dc.clarity as "Clarity", dt.price as "Price", dc4.city as "City", dd.'depth' as 'Depth',dt.carat as 'Carat', dd."table" as 'Table',
 dd.x as X, dd.y as Y, dd.z as Z
 FROM diamonds_properties dp 
