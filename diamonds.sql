@@ -1,6 +1,6 @@
-SELECT dc2.color as "Color", dc3.cut as "Cut", 
-dc.clarity as "Clarity", dt.price as "Price", dc4.city as "City", dd.'depth' as 'Depth',dt.carat as 'Carat', dd."table" as 'Table',
-dd.x as X, dd.y as Y, dd.z as Z
+SELECT dc2.color as "color", dc3.cut as "cut", 
+dc.clarity as "clarity", dt.price as "price", dc4.city as "city", dd.'depth' as 'depth',dt.carat as 'carat', dd."table" as 'table',
+dd.x as x, dd.y as y, dd.z as z
 FROM diamonds_properties dp 
 INNER JOIN diamonds_clarity dc on dc.clarity_id = dp.clarity_id
 INNER JOIN diamonds_color dc2 on dc2.color_id =dp.color_id  
