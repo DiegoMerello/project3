@@ -1,6 +1,6 @@
 # Machine Learning Project 3 - Prediction of diamonds price
 
-<p align="center"/p>![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
 
 
@@ -30,15 +30,15 @@ This is an example of how to list things you need to use the software and how to
 * pandas
   ```sh
   pip install pandas
-  ```
+   ```
 * sklearn
   ```sh
   pip install sklearn
-  ```
-*matplotlib
- ```sh
- pip install matplotlib
-  ```
+   ```
+* matplotlib
+  ```sh
+  pip install matplotlib
+   ```
   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -49,15 +49,16 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/DiegoMerello/project3
    ```
 2. Install PANDAS packages
-   2.1. pandas
-  ```sh
-  pip install pandas
-  ```
-   2.2. sklearn
-  ```sh
-  pip install sklearn
-  ```
-   2.3. matplotlib
+   
+  * pandas
+   ```sh
+   pip install pandas
+   ```
+   * sklearn
+   ```sh
+   pip install sklearn
+   ```
+   * matplotlib
    ```sh
    pip install matplotlib
    ```
@@ -67,7 +68,7 @@ This is an example of how to list things you need to use the software and how to
    https://github.com/DiegoMerello/project3/blob/main/diamonds_test.csv
    ```
 
-  ```sh 
+   ```sh 
    https://github.com/DiegoMerello/project3/blob/main/diamonds_train.db
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
